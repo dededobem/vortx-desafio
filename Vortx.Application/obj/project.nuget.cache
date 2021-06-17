@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "XRB21bT8NVm1PZ8yJPFjmqbohP4/IQ+ax88Z2AF0sm0n7lfxze9pLAp28cqe/CtRm7172C441he5kkk/fRHYbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deded\\source\\repos\\Vortx\\Vortx.Application\\Vortx.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deded\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\deded\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.2.3\\fluentvalidation.aspnetcore.10.2.3.nupkg.sha512",
+    "C:\\Users\\deded\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.2.3\\fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
+    "C:\\Users\\deded\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vortx.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Vortx.Api.Controllers.CalculationController.CalculatePrice(Vortx.Application.Requests.RequestCalculation)">
+            <summary>
+            Calcular preços das ligações com plano e sem plano
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PlanController.GetAll">
+            <summary>
+            Consultar todos os planos cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PlanController.GetById(System.Guid)">
+            <summary>
+            Consultar plano por id
+            </summary>
+            <param name="id">Identificador do plano a ser consultado</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PlanController.Create(Vortx.Application.ViewModels.PlanViewModel)">
+            <summary>
+            Cadastrar novo plano
+            </summary>
+            <param name="plan"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PlanController.Update(System.Guid,Vortx.Application.ViewModels.PlanViewModel)">
+            <summary>
+            Atualizar um plano
+            </summary>
+            <param name="id">Identificador do plano a ser atualizado</param>
+            <param name="plan">Dados do plano a serem atualizados</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PlanController.Remove(System.Guid)">
+            <summary>
+            Remover um plano cadastrado
+            </summary>
+            <param name="id">Identificador do plano a ser removido</param>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PriceController.GetAll">
+            <summary>
+            Consultar todos os preços das origens e destinos cadastrados 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PriceController.GetById(System.Guid)">
+            <summary>
+            Consultar os preços das origens e destinos por id
+            </summary>
+            <param name="id">Identificador do priceo a ser consultado</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PriceController.Create(Vortx.Application.ViewModels.PriceViewModel)">
+            <summary>
+            Cadastrar novo preço das origens e destinos
+            </summary>
+            <param name="price"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PriceController.Update(System.Guid,Vortx.Application.ViewModels.PriceViewModel)">
+            <summary>
+            Atualizar um preço das origens e destinos
+            </summary>
+            <param name="id">Identificador do preço a ser atualizado</param>
+            <param name="price">Dados do preço a serem atualizados</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vortx.Api.Controllers.PriceController.Remove(System.Guid)">
+            <summary>
+            Remover um preço das origens e destinos cadastrado
+            </summary>
+            <param name="id">Identificador do preço a ser removido</param>
+        </member>
+    </members>
+</doc>

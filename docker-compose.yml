@@ -1,0 +1,42 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  vortxapi:
+    image: vortxapi
+    container_name: vortxapi
+    build:
+      context: .
+      dockerfile: Vortx.Api/Dockerfile
+    ports:
+      - 5000:80
+      - 5001:443
+    networks:
+      - vortx-network
+    environment:     
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80      
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=s9e9s9c9
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ~/.aspnet/https:/https:ro    
+
+  vortxfront:
+    image: vortxfront
+    container_name: vortxfront
+    build:
+      context: .
+      dockerfile: Vortx.Web/vortx-front/Dockerfile
+    environment:
+      NODE_ENV: production      
+    ports:
+      - 3000:3000
+    networks:
+      - vortx-network
+    depends_on:
+      - vortxapi
+
+networks:
+  vortx-network:
+    driver: bridge

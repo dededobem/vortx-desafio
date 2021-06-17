@@ -1,0 +1,12 @@
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\bin\Debug\net5.0\Vortx.Domain.deps.json
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\bin\Debug\net5.0\Vortx.Domain.dll
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\bin\Debug\net5.0\ref\Vortx.Domain.dll
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\bin\Debug\net5.0\Vortx.Domain.pdb
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\Vortx.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\Vortx.Domain.AssemblyInfoInputs.cache
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\Vortx.Domain.AssemblyInfo.cs
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\Vortx.Domain.csproj.CoreCompileInputs.cache
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\Vortx.Domain.dll
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\ref\Vortx.Domain.dll
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\Vortx.Domain.pdb
+C:\Users\deded\source\repos\Vortx\Vortx.Domain\obj\Debug\net5.0\Vortx.Domain.csprojAssemblyReference.cache
