@@ -4,6 +4,7 @@ Avaliação Prática
 
 ## Recursos
 - .net Core 5.1
+- xunit
 - EF Core
 - SQLite
 - Pattern Repository
